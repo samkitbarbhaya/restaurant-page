@@ -1,3 +1,4 @@
+import { $content } from "./index"
 
 function render() {
 
@@ -24,6 +25,8 @@ function render() {
     const $main = document.createElement("main")
     $main.className = "main"
     $main.appendChild($div)
+
+    $content.appendChild($main)
 }
 
 export {render as renderMainHome}

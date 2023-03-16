@@ -1,3 +1,4 @@
+import { $content } from "./index"
 
 function render() {
     const navItems = ["HOME","MENU","CONTACT"]
