@@ -1,4 +1,4 @@
-import { $content } from "./index"
+import {$content} from "./index"
 
 function render() {
     const navItems = ["HOME","MENU","CONTACT"]
@@ -6,6 +6,7 @@ function render() {
     navItems.forEach((item)=>{
         const $li = document.createElement("li")
         $li.textContent = item
+        $li.className = item
         $ul.appendChild($li)
     })
     const $nav = document.createElement("nav")

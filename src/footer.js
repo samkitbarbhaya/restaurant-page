@@ -8,6 +8,7 @@ function render() {
     $p.textContent = "Developed by Samkit Barbhaya"
 
     $footer.appendChild($p)
+    
     $content.appendChild($footer)
 }
 

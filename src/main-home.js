@@ -1,9 +1,9 @@
-import { $content } from "./index"
+import { $content } from "."
 
 function render() {
 
     const $pWelcome = document.createElement("p")
-    $pWelcome.className = "cursive golden"
+    $pWelcome.className = "cursive golden welcome"
     $pWelcome.textContent = "Welcome"
 
     const $h1 = document.createElement("h1")
@@ -17,7 +17,7 @@ function render() {
 
     const $button = document.createElement("button")
     $button.textContent = "SEE THE MENU"
-
+    
     const $div = document.createElement("div")
     $div.className = "main-content"
     $div.append($pWelcome, $h1, $hr, $pDescription, $button)
@@ -29,4 +29,4 @@ function render() {
     $content.appendChild($main)
 }
 
-export {render as renderMainHome}
+export {render as renderHome}
