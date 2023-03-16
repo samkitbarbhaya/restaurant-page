@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+html, body {
+    font-size: 1.6rem;
+    background-image: url('../src/image.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+#content {
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navbar {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8); 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white
+}
+
+.navbar > ul {
+    font-size: 20px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none
+}
+
+.navbar > ul > li:hover{
+    text-decoration: underline;
+}
+
+
+/* HOME PAGE */
+
+.main-content{
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6) ;
+    color: white;
+}
+
+.main-content > .golden {
+    color: #bea068;
+}
+
+.main-content > .cursive {
+    font-family: "Herr Von Muellerhoff", cursive;
+    font-size: 96px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.main-content > h1 {
+    font-size: 100px;
+    margin-top: -90px;
+}
+
+.main-content > hr {
+    width: 300px;
+    background-color: #bea068;
+    height: 3px;
+    border: none
+}
+
+.main-content > p {
+    margin: 15px;
+    font-size: 15px;
+}
+
+.main-content > button {
+    background-color: #bea068;
+    border: none;
+    padding: 15px;
+    margin: 20px 15px 15px 15px;
+}
+
+.footer {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3) ;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
