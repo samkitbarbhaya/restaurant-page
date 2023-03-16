@@ -1,7 +1,7 @@
 import {$content} from "./index"
 
 function render() {
-    const navItems = ["HOME","MENU","CONTACT"]
+    const navItems = ["HOME","MENU","ABOUT"]
     const $ul = document.createElement("ul")
     navItems.forEach((item)=>{
         const $li = document.createElement("li")
